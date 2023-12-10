@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #d2e0fb;
+  font-family: "Courier New";
+}
+
+header {
+  background-color: #8eaccd;
+  color: #f6f1ee;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding-top: 50px; /* Espaciado superior */
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ed7c31a8;
+  text-align: center;
+  padding: 100px;
+  border-radius: 10px;
+}
+
+.card img {
+  margin-top: -40px; /* Ajusta la posición de la imagen hacia arriba */
+  border-radius: 50%; /* Hace la imagen redonda */
+}
+
+span {
+  display: block;
+  margin-bottom: 10px; /* Espaciado entre los elementos span */
+}
+
+button {
+  background-color: #8eaccd;
+  color: #f6f1ee;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px; /* Espaciado entre el card y el botón */
+}
