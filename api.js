@@ -1,4 +1,4 @@
-const fetchRandomUser = async () => {
+export const fetchRandomUser = async () => {
     try {
         const response = await fetch('https://randomuser.me/api/');
         const data = await response.json();
@@ -9,7 +9,7 @@ const fetchRandomUser = async () => {
         throw error;
     }
 };
-const fetchCurrentTime = async (location) => {
+ export const fetchCurrentTime = async (location) => {
     try {
         const [city] = location.split(',');
 
